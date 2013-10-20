@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ToneStackCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="preferences">Preferences</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bpm_tone">tone</string>
+    <string name="circuit_name">Circuit</string>
+    <string name="vertical_axis_range">Vertical Axis Range</string>
+    <string name="horizontal_axis_range">Horizontal Axis Range</string>
+    
+    
+    <string-array name="horizontal_axis_options_array">
+        <item>10Hz~100KHz</item>
+        <item>20Hz~20KHz</item>
+    </string-array>
+
+</resources>

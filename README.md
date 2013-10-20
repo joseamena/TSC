@@ -1,4 +1,1 @@
-TSC
-===
-
-ToneStackCalculator Utility for Android
+#First version of the tonestack Calculator

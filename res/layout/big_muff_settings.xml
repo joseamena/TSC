@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+	<!--
+    <TableRow
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/R1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="10"
+            android:text="   R1:" />
+        
+        <EditText
+            android:id="@+id/R1DisplayValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/R2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="10"
+            android:text="   R2:" />
+
+        <EditText
+            android:id="@+id/R2DisplayValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/c1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/C1Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="10"
+            android:text="   C1:" />
+        
+        <EditText
+            android:id="@+id/C1DisplayValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10" >
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/C2Label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:ems="10"
+            android:text="   C2:" />
+
+        <EditText
+            android:id="@+id/C2DisplayValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:ems="10" />
+
+    </TableRow> -->
+
+    <ImageView
+        android:id="@+id/bpmImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:src="@drawable/bmp" />
+    
+    <TextView
+        android:id="@+id/C1DisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bpmImage"
+        android:layout_alignTop="@id/bpmImage"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="240dp"
+        android:background="@null"
+        android:tag="C1"
+        android:text="C1" />
+    
+     <EditText
+        android:id="@+id/C1DisplayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/C1DisplayName"
+        android:layout_alignLeft="@id/C1DisplayName"
+        android:background="@null"
+        android:text="10.0n"
+        android:tag="C1"
+         />
+
+    <TextView
+        android:id="@+id/C2DisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bpmImage"
+        android:layout_alignTop="@id/bpmImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:tag="C2" />
+
+    <EditText
+        android:id="@+id/C2DisplayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/C2DisplayName"
+        android:layout_below="@+id/C2DisplayName"
+        android:background="@null"
+        android:tag="C2" />
+
+
+    <TextView
+        android:id="@+id/R1DisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bpmImage"
+        android:layout_alignTop="@id/bpmImage"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="215dp"
+        android:background="@null"
+        android:tag="R1" />
+
+    <EditText
+        android:id="@+id/R1DisplayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/R1DisplayName"
+        android:layout_below="@+id/R1DisplayName"
+        android:background="@null"
+        android:tag="R1" />
+      
+    <TextView
+        android:id="@+id/R2DisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	android:layout_alignLeft="@id/bpmImage"
+        android:layout_alignTop="@id/bpmImage"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="30dp"
+        android:background="@null"
+        android:tag="R2" />
+
+    <EditText
+        android:id="@+id/R2DisplayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/R2DisplayName"
+        android:layout_below="@id/R2DisplayName"
+        android:background="@null"
+        android:tag="R2" />
+
+    <TextView
+        android:id="@+id/ToneDisplayName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bpmImage"
+        android:layout_alignTop="@id/bpmImage"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="120dp"
+        android:background="@null"
+        android:tag="Tone" />
+        
+    <EditText
+        android:id="@+id/ToneDisplayValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ToneDisplayName"
+        android:layout_below="@+id/ToneDisplayName"
+        android:background="@null"
+        android:tag="Tone" />
+
+
+
+</RelativeLayout>
